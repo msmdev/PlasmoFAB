@@ -1,0 +1,351 @@
+Protein;Description;Priority Tier (1 is highest);Signal/TM/GPIb;Observed in Unlabeled  Control (n=3);Total Number of Replicates Observed (n = 6);Enrichedc;Replicates with observed labeld;Observed (n=3);Enrichedc;Replicates with observed labeld;Labeled/ unlabeled;Standard error;p-value;FDR;Average Probability;FDR;Observed (n=3);Enrichedc;Replicates with observed labeld;Labeled/ unlabeled;Standard error;p-value;FDR;Average Probability;FDR
+PF3D7_0304600;circumsporozoite (CS) protein (CSP);1;Signal, GPI;1;6;YES;6;3;YES;3;363,72;3,55;0,00;0,01;1,00;0,00;3;YES;3;738,68;3,48;0,00;0,00;1,00;0,00
+PF3D7_0104000;thrombospondin-related sporozoite protein (TRSP);1;Signal, TM;0;6;YES;4;3;YES;1;9,21;2,07;0,01;0,06;0,90;0,02;3;YES;3;54,35;1,51;0,00;0,00;1,00;0,00
+PF3D7_0818600;BEM46-like protein, putative (PBLP);1;TM;0;6;YES;6;3;YES;3;14,69;1,53;0,00;0,01;1,00;0,00;3;YES;3;23,72;1,54;0,00;0,00;1,00;0,00
+PF3D7_0919500;sugar transporter, putative;1;12 TMs;1;6;YES;1;3;YES;0;9,35;5,12;0,03;0,18;0,99;0,00;3;YES;1;21,65;4,55;0,01;0,05;1,00;0,00
+PF3D7_1335900;thrombospondin-related anonymous protein (TRAP);1;Signal;2;6;YES;1;3;YES;1;9,95;5,83;0,05;0,26;1,00;0,00;3;YES;0;15,75;7,13;0,03;0,11;1,00;0,00
+PF3D7_1222300;endoplasmin, putative (GRP94);1;Signal;1;6;YES;1;3;NO;0;2,76;4,44;0,23;0,43;0,08;0,45;3;YES;1;14,03;5,86;0,03;0,09;1,00;0,00
+PF3D7_0511400;conserved Plasmodium protein, unknown function;1;Signal, TM;0;4;YES;1;1;NO;0;1,59;2,23;0,37;0,43;0,26;0,31;3;YES;1;9,25;1,17;0,00;0,00;1,00;0,00
+PF3D7_1011500;conserved Plasmodium membrane protein, unknown function;2;4 TMs;1;3;YES;0;0;NO;0;0,52;3,08;0,37;0,43;-;-;3;YES;0;30,77;4,01;0,01;0,03;1,00;0,00
+PF3D7_1324900;L-lactate dehydrogenase (LDH);2;TM;0;6;YES;0;3;YES;0;5,19;1,33;0,00;0,01;1,00;0,00;3;YES;0;28,31;1,50;0,00;0,00;1,00;0,00
+PF3D7_1406800;glideosome associated protein with multiple membrane spans 3 (GAPM3);2;6 TMs;1;4;YES;0;1;NO;0;1,00;7,92;1,00;1,00;0,29;0,26;3;YES;0;26,89;4,70;0,01;0,04;1,00;0,00
+PF3D7_1133400;apical membrane antigen 1 (AMA1);2;Signal, TM;0;6;YES;0;3;YES;0;11,55;1,80;0,00;0,02;1,00;0,00;3;YES;0;25,92;1,24;0,00;0,00;1,00;0,00
+PF3D7_1311800;M1-family alanyl aminopeptidase (M1AAP);2;TM;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;20,52;2,39;0,00;0,02;1,00;0,00
+PF3D7_0828800;GPI-anchored micronemal antigen (GAMA);2;Signal, GPI;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;17,54;1,16;0,00;0,00;1,00;0,00
+PF3D7_0408600;sporozoite invasion-associated protein 1 (SIAP1);2;Signal;1;5;YES;0;2;NO;0;1,75;13,95;0,63;0,69;0,03;0,47;3;YES;0;17,22;7,57;0,03;0,11;1,00;0,00
+PF3D7_0812300;sporozoite surface protein 3, putative (SSP3);2;Signal, TM;0;6;YES;0;3;YES;0;3,68;1,70;0,01;0,09;0,76;0,04;3;YES;0;16,58;1,13;0,00;0,00;1,00;0,00
+PF3D7_0515700;glideosome-associated protein 40, putative (GAP40);2;10 TMs;1;3;YES;0;0;NO;0;0,58;2,53;0,37;0,43;-;-;3;YES;0;16,01;4,79;0,01;0,05;1,00;0,00
+PF3D7_0204700;hexose transporter (HT);2;12 TMs;1;6;YES;0;3;NO;0;2,71;2,88;0,14;0,43;0,32;0,18;3;YES;0;15,66;2,96;0,01;0,03;1,00;0,00
+PF3D7_0408700;sporozoite micronemal protein essential for cell traversal (PLP1);2;2 TMs;1;3;YES;0;0;NO;0;0,79;1,49;0,37;0,43;-;-;3;YES;0;13,62;2,86;0,00;0,02;1,00;0,00
+PF3D7_0423500;glideosome associated protein with multiple membrane spans 2 (GAPM2);2;6 TMs;2;3;YES;0;0;NO;0;0,17;5,75;0,16;0,43;-;-;3;YES;0;13,50;7,36;0,06;0,18;1,00;0,00
+PF3D7_0917900;heat shock protein 70 (HSP70-2);2;Signal;0;4;YES;0;1;NO;0;1,59;2,23;0,37;0,43;0,22;0,39;3;YES;0;13,22;2,11;0,00;0,02;1,00;0,00
+PF3D7_1028900;inner membrane complex protein 1m, putative (IMC1m);2;TM;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;12,32;1,34;0,00;0,00;1,00;0,00
+PF3D7_1409400;conserved Plasmodium membrane protein, unknown function;2;4 TMs;1;3;YES;0;0;NO;0;0,55;2,81;0,37;0,43;-;-;3;YES;0;11,24;4,84;0,02;0,08;1,00;0,00
+PF3D7_1037300;ADP/ATP transporter on adenylate translocase (ADT);2;3 TMs;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;10,26;1,40;0,00;0,00;1,00;0,00
+PF3D7_0918000;glideosome-associated protein 50 (GAP50);2;Signal, GPI;0;4;YES;0;1;NO;0;1,82;2,81;0,37;0,43;0,30;0,24;3;YES;0;9,52;1,23;0,00;0,00;1,00;0,00
+PF3D7_1237700;conserved protein, unknown function;2;5 TMs;1;3;YES;0;0;NO;0;0,69;1,89;0,37;0,43;-;-;3;YES;0;8,29;2,83;0,01;0,04;1,00;0,00
+PF3D7_1446900;glutaminyl-peptide cyclotransferase, putative;2;TM;0;6;YES;0;3;YES;0;8,43;1,34;0,00;0,01;1,00;0,00;3;YES;0;7,56;1,23;0,00;0,00;1,00;0,00
+PF3D7_1238000;COPI associated protein, putative;2;4 TMs;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;7,49;1,73;0,00;0,02;1,00;0,00
+PF3D7_1323700;glideosome associated protein with multiple membrane spans 1 (GAPM1);2;6 TMs;1;3;YES;0;0;NO;0;0,79;1,49;0,37;0,43;-;-;3;YES;0;6,75;7,06;0,11;0,29;0,62;0,06
+PF3D7_1411100.1;conserved Plasmodium membrane protein, unknown function;2;8 TMs;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;6,32;1,09;0,00;0,00;1,00;0,00
+PF3D7_1411100.2;conserved Plasmodium membrane protein, unknown function;2;8 TMs;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;6,32;1,09;0,00;0,00;1,00;0,00
+PF3D7_0827900;protein disulfide isomerase (PDI8);2;Signal;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;5,74;1,78;0,01;0,03;0,96;0,00
+PF3D7_0506900;rhomboid protease ROM4 (ROM4);2;6 TMs;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;5,43;1,70;0,01;0,03;1,00;0,00
+PF3D7_1430700;NADP-specific glutamate dehydrogenase (GDH2);2;Signal;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,16;1,42;0,00;0,01;0,99;0,00
+PF3D7_0620000;conserved Plasmodium protein, unknown function;2;Signal, GPI;0;4;YES;0;1;NO;0;1,71;2,53;0,37;0,43;0,26;0,30;3;YES;0;4,00;1,00;0,00;0,00;0,99;0,00
+PF3D7_0316700;HVA22/TB2/DP1 family protein, putative;2;3 TMs;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;3,63;2,04;0,03;0,11;0,89;0,01
+PF3D7_0508000;6-cysteine protein (P38);2;Signal, GPI;0;5;YES;0;3;YES;0;2,71;1,70;0,03;0,17;0,67;0,07;2;YES;0;4,63;3,78;0,12;0,29;0,65;0,04
+PF3D7_0508200;longevity-assurance (LAG1) protein, putative;2;7 TMs;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,48;2,95;0,12;0,29;0,60;0,07
+PF3D7_1457000;signal peptide peptidase (SPP);2;8 TMs;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,30;3,04;0,14;0,30;0,59;0,08
+PF3D7_0316600;formate-nitrite transporter (FNT);2;6 TMs;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,27;2,83;0,12;0,29;0,63;0,05
+PF3D7_1252100;rhoptry neck protein 3 (RON3);2;Signal, 3 TMs;1;2;YES;0;0;NO;0;0,79;1,49;0,37;0,43;-;-;2;YES;0;3,11;5,26;0,21;0,38;0,64;0,05
+PF3D7_1146300;conserved Plasmodium protein, unknown function;2;2 TMs;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,88;2,83;0,15;0,32;0,59;0,08
+PF3D7_1326000;conserved Plasmodium protein, unknown function;2;TM;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,62;2,47;0,14;0,30;0,61;0,07
+PF3D7_1132800;aquaglyceroporin (AQP);2;6 TMs, Signal;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,62;2,47;0,14;0,30;0,58;0,10
+PF3D7_1452000;rhoptry neck protein 2 (RON2);3;Signal, TM;1;3;NO;0;0;NO;0;0,48;3,56;0,37;0,43;-;-;3;NO;0;3,75;7,38;0,19;0,37;0,54;0,11
+PF3D7_1449000;gamete egress and sporozoite traversal protein, putative (GEST);3;Signal, TM;2;3;NO;0;0;NO;0;0,21;3,91;0,12;0,43;-;-;3;NO;0;3,07;6,34;0,25;0,38;0,34;0,17
+PF3D7_0405900;apical sushi protein (ASP);3;TM, Signal, GPI;2;3;NO;0;0;NO;0;0,44;2,08;0,12;0,43;-;-;3;NO;0;2,15;4,73;0,29;0,38;0,46;0,14
+PF3D7_1023000;conserved Plasmodium membrane protein, unknown function;3;5 TMs;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;3,17;4,23;0,24;0,38;0,39;0,16
+PF3D7_0605900;long chain polyunsaturated fatty acid elongation enzyme, putative;3;7 TMs;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;3,11;4,08;0,24;0,38;0,42;0,16
+PF3D7_1331300;signal peptidase 21 kDa subunit (SP21);3;3 TMs;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,29;2,47;0,19;0,36;0,53;0,12
+PF3D7_0922900;3-oxoacyl-[acyl-carrier-protein] reductase (FabG);3;Signal, Signal;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,29;2,47;0,19;0,36;0,48;0,13
+PF3D7_1135900;3-oxo-5-alpha-steroid 4-dehydrogenase, putative;3;5 TMs;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,15;2,24;0,17;0,34;0,48;0,14
+PF3D7_1134100;protein disulfide isomerase (PDI-11);3;Signal;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,15;2,24;0,17;0,34;0,45;0,15
+PF3D7_0930300;merozoite surface protein 1 (MSP1);3;TM, GPI;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,00;2,00;0,16;0,32;0,12;0,39
+PF3D7_0206200;pantothenate transporter (PAT);3;11 TMs;1;2;NO;0;0;NO;0;0,69;1,89;0,37;0,43;-;-;2;NO;0;1,44;3,56;0,52;0,52;0,48;0,14
+PF3D7_1352500;thioredoxin-related protein, putative;3;2 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,57;5,13;0,37;0,38;0,33;0,18
+PF3D7_0519200;V-type proton ATPase 16 kDa proteolipid subunit;3;4 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,35;4,40;0,37;0,38;0,32;0,20
+PF3D7_1116700;dipeptidyl aminopeptidase 1 (DPAP1);3;TM, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,22;3,99;0,37;0,38;0,29;0,25
+PF3D7_1229300;conserved Plasmodium protein, unknown function;3;TM, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,15;3,78;0,37;0,38;0,26;0,30
+PF3D7_0708700;Cg8 protein;3;TM;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,08;3,56;0,37;0,38;0,31;0,21
+PF3D7_1246800;signal recognition particle receptor, beta subunit (SRPR-beta);3;TM;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,30;0,22
+PF3D7_0106300;calcium-transporting ATPase (ATP6);3;8 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,23;0,34
+PF3D7_1105800;conserved Plasmodium protein, unknown function;3;TM, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,30;0,24
+PF3D7_1002900;conserved Plasmodium protein, unknown function;3;TM;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,31;0,21
+PF3D7_0422000;steroid dehydrogenase, putative;3;TM, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,29;0,25
+PF3D7_1113300;UDP-galactose transporter, putative;3;8 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,27;0,28
+PF3D7_1121000;palmitoyltransferase, putative (DHHC3);3;4 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,27;0,28
+PF3D7_1353600;ER lumen protein retaining receptor (ERD2);3;4 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,30;0,24
+PF3D7_1358700;HVA22-like protein, putative;3;3 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,31;0,22
+PF3D7_1342500;sporozoite protein essential for cell traversal (SPECT1);3;Signal, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,28;0,26
+PF3D7_1354400;V-type proton ATPase 21 kDa proteolipid subunit, putative;3;4 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,30;0,24
+PF3D7_0903100;protein RER1, putative (RER1);3;3 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,28;0,26
+PF3D7_1330400.1;ER lumen protein retaining receptor 1, putative;3;8 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,27;0,29
+PF3D7_1032500;DER1-like protein, putative (Der1-2);3;5 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,27;0,29
+PF3D7_0524700;mitochondrial import receptor subunit tom22, putative (TOM22);3;TM;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,28;0,26
+PF3D7_1410700;conserved Plasmodium protein, unknown function;3;Signal, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,21;0,35
+PF3D7_0615100;enoyl-acyl carrier reductase (ENR);3;Signal, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,17;0,38
+PF3D7_0628300;choline/ethanolaminephosphotransferase, putative (CEPT);3;8 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,19;0,37
+PF3D7_1105900;conserved Plasmodium membrane protein, unknown function;3;4 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,27;0,29
+PF3D7_1438100;secretory complex protein 62 (SEC62);3;3 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,19;0,37
+PF3D7_0409500;conserved Plasmodium protein, unknown function;3;3 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,18;0,37
+PF3D7_0526900;transmembrane emp24 domain-containing protein, putative;3;2 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,24;0,32
+PF3D7_0817500;protein kinase c inhibitor-like protein, putative;3;TM, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,25;0,32
+PF3D7_0413700;lysine decarboxylase-like protein, putative;3;TM;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,20;0,36
+PF3D7_0911900;falstatin (ICP);3;Signal, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,17;0,38
+PF3D7_1020800;dihydrolipoamide acyltransferase component E2 (DLAT);3;Signal, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,14;0,39
+PF3D7_1367700;alanine--tRNA ligase (AlaRS);3;Signal, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,07;0,40
+PF3D7_0612800;6-cysteine protein (P12p);3;Signal, GPI;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,20;0,36
+PF3D7_1038000.1,PF3D7_1038000.2;antigen UB05;3;2 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,28;0,27
+PF3D7_0826100;E3 ubiquitin-protein ligase, putative;3;2 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,00;0,41
+PF3D7_0613300;rhoptry protein ROP14 (ROP14);3;11 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,06;0,41
+PF3D7_1431900;inner membrane complex suture component, putative (ISC3);3;10 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,13;0,39
+PF3D7_1346100;protein transport protein SEC61 subunit alpha (SEC61);3;8 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1365700;SNARE associated Golgi protein, putative;3;6 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1444300;1-acyl-sn-glycerol-3-phosphate acyltransferase, putative (LPAAT);3;2 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1462700;cytochrome c1 precursor, putative;3;TM;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1021400;endomembrane protein 70, putative;3;9 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1135300;conserved Plasmodium membrane protein, unknown function;3;8 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1321600;phosphodiesterase gamma, putative (PDEgamma);3;6 TMs;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1315600;CDP-diacylglycerol--inositol 3-phosphatidyltransferase (PIS);3;3 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1310500;conserved protein, unknown function;3;2 TMs, Signal;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0806800;vacuolar proton translocating ATPase subunit A, putative;3;6 TMs;1;1;NO;0;0;NO;0;0,69;1,89;0,37;0,43;-;-;1;NO;0;1,10;4,20;0,88;0,88;0,30;0,23
+PF3D7_0818200;14-3-3 protein (14-3-3I);4;-;0;6;YES;2;3;YES;0;5,80;2,11;0,01;0,10;0,95;0,01;3;YES;2;28,48;1,15;0,00;0,00;1,00;0,00
+PF3D7_1246200;actin I (ACT1);4;-;2;6;YES;2;3;YES;0;7,71;3,71;0,02;0,15;1,00;0,00;3;YES;2;26,44;3,13;0,00;0,02;1,00;0,00
+PF3D7_1342600;myosin A (MyoA);4;-;2;6;YES;3;3;NO;3;5,34;9,80;0,17;0,43;0,48;0,11;3;YES;0;20,45;10,65;0,04;0,12;1,00;0,00
+PF3D7_0919300;thioredoxin-like protein 1, putative (TrxL1);4;-;2;5;YES;1;2;NO;0;0,65;7,73;0,64;0,69;0,00;0,83;3;YES;1;18,97;4,72;0,02;0,06;1,00;0,00
+PF3D7_0322000;peptidyl-prolyl cis-trans isomerase (CYP19A);4;-;1;3;YES;2;0;NO;0;0,50;3,32;0,37;0,43;-;-;3;YES;2;17,64;5,28;0,02;0,07;1,00;0,00
+PF3D7_1137800;conserved Plasmodium protein, unknown function;4;-;3;6;YES;2;3;YES;0;2,92;1,82;0,01;0,09;0,89;0,03;3;YES;2;13,81;2,67;0,00;0,02;0,99;0,00
+PF3D7_1235700;ATP synthase subunit beta, mitochondrial;5;-;0;6;YES;0;3;YES;0;108,88;1,06;0,00;0,00;1,00;0,00;3;YES;0;68,52;2,37;0,00;0,01;1,00;0,00
+PF3D7_1444800;fructose-bisphosphate aldolase (FBPA);5;-;0;4;YES;0;1;NO;0;1,59;2,23;0,37;0,43;0,25;0,34;3;YES;0;51,82;1,48;0,00;0,00;1,00;0,00
+PF3D7_1407700;conserved Plasmodium protein, unknown function;5;-;1;4;YES;0;1;NO;0;0,84;4,78;0,81;0,85;0,06;0,46;3;YES;0;33,43;4,03;0,00;0,02;1,00;0,00
+PF3D7_0819600;conserved Plasmodium protein, unknown function;5;-;0;6;YES;0;3;YES;0;4,64;1,14;0,00;0,00;0,99;0,00;3;YES;0;32,27;1,30;0,00;0,00;1,00;0,00
+PF3D7_0818900;heat shock protein 70 (HSP70);5;-;2;4;YES;0;1;NO;0;0,83;11,14;0,86;0,90;0,33;0,16;3;YES;0;31,91;4,16;0,01;0,03;1,00;0,00
+PF3D7_1451100;elongation factor 2 (eEF2);5;-;1;3;YES;0;0;NO;0;0,69;1,89;0,37;0,43;-;-;3;YES;0;26,37;2,80;0,00;0,01;1,00;0,00
+PF3D7_1462800;glyceraldehyde-3-phosphate dehydrogenase (GAPDH);5;-;1;6;YES;0;3;YES;0;3,04;3,36;0,12;0,43;0,72;0,05;3;YES;0;24,85;4,22;0,01;0,03;1,00;0,00
+PF3D7_1117700;GTP-binding nuclear protein ran/tc4 (RAN);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;19,36;1,25;0,00;0,00;1,00;0,00
+PF3D7_1140400;conserved Plasmodium protein, unknown function;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;19,15;1,32;0,00;0,00;1,00;0,00
+PF3D7_0814600;conserved Plasmodium protein, unknown function;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;18,55;2,20;0,00;0,02;1,00;0,00
+PF3D7_1120100;phosphoglycerate mutase, putative (PGM1);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;18,22;1,31;0,00;0,00;1,00;0,00
+PF3D7_0618500;malate dehydrogenase (MDH);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;18,00;1,00;0,00;0,00;1,00;0,00
+PF3D7_0816500;small heat shock protein HSP20, putative (HSP20);5;-;1;5;YES;0;2;NO;0;0,97;9,14;0,98;1,00;0,00;0,83;3;YES;0;17,41;8,80;0,04;0,12;1,00;0,00
+PF3D7_1361800;conserved Plasmodium protein, unknown function;5;-;1;4;YES;0;1;NO;0;1,00;3,56;1,00;1,00;0,16;0,42;3;YES;0;17,16;6,53;0,02;0,08;0,80;0,02
+PF3D7_1460600;inner membrane complex sub-compartment protein 3 (ISP3);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;16,73;1,49;0,00;0,00;1,00;0,00
+PF3D7_0929600;G2 protein, putative;5;-;0;6;YES;0;3;YES;0;6,60;2,04;0,01;0,09;0,93;0,01;3;YES;0;16,40;1,24;0,00;0,00;1,00;0,00
+PF3D7_1011000;inner membrane complex sub-compartment protein 1 (ISP1);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;15,95;2,28;0,00;0,02;1,00;0,00
+PF3D7_0518900;conserved Plasmodium protein, unknown function;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;15,39;1,26;0,00;0,00;1,00;0,00
+PF3D7_1246400;myosin A tail domain interacting protein (MTIP);5;-;1;3;YES;0;0;NO;0;0,69;1,89;0,37;0,43;-;-;3;YES;0;14,15;2,29;0,00;0,02;1,00;0,00
+PF3D7_1347500;DNA/RNA-binding protein Alba 4 (ALBA4);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;13,99;1,62;0,00;0,01;1,00;0,00
+PF3D7_0627500;protein DJ-1 (DJ1);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;13,68;1,31;0,00;0,00;1,00;0,00
+PF3D7_1213400;conserved Plasmodium protein, unknown function;5;-;0;4;YES;0;1;NO;0;1,44;1,89;0,37;0,43;0,16;0,41;3;YES;0;13,61;1,78;0,00;0,01;1,00;0,00
+PF3D7_0723300;conserved Plasmodium protein, unknown function;5;-;1;4;YES;0;1;NO;0;0,76;7,92;0,77;0,82;0,00;0,50;3;YES;0;13,53;4,77;0,03;0,09;1,00;0,00
+PF3D7_1438900;thioredoxin peroxidase 1 (Trx-Px1);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;13,22;2,45;0,01;0,03;1,00;0,00
+PF3D7_1008700;tubulin beta chain;5;-;3;6;YES;0;3;NO;0;1,23;2,39;0,61;0,67;0,00;0,83;3;YES;0;13,05;2,29;0,00;0,01;1,00;0,00
+PF3D7_0109000;photosensitized INA-labeled protein PHIL1, putative (PHIL1);5;-;1;3;YES;0;0;NO;0;0,48;3,56;0,37;0,43;-;-;3;YES;0;11,89;6,47;0,04;0,11;1,00;0,00
+PF3D7_0922500;phosphoglycerate kinase (PGK);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;11,63;1,55;0,00;0,01;1,00;0,00
+PF3D7_1236600;p25-alpha family protein, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;11,60;1,14;0,00;0,00;1,00;0,00
+PF3D7_1211800,PF3D7_1365900;polyubiquitin (PfpUB);5;-;0;4;YES;0;1;NO;0;3,39;8,29;0,37;0,43;0,32;0,20;3;YES;0;11,20;1,21;0,00;0,00;1,00;0,00
+PF3D7_1230300;subpellicular microtubule protein 2, putative (SPM2);5;-;0;5;YES;0;2;YES;0;3,11;2,68;0,12;0,43;0,64;0,09;3;YES;0;10,80;1,73;0,00;0,01;1,00;0,00
+PF3D7_1221400;inner membrane complex protein 1h, putative (IMC1h);5;-;1;5;YES;0;2;NO;0;1,59;2,98;0,37;0,43;0,45;0,13;3;YES;0;10,80;3,03;0,01;0,03;0,98;0,00
+PF3D7_1224300;polyadenylate-binding protein, putative (PABP);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;10,45;1,97;0,00;0,02;1,00;0,00
+PF3D7_0304100;inner membrane complex protein 1e, putative (IMC1e);5;-;0;4;YES;0;1;NO;0;1,71;2,53;0,37;0,43;0,25;0,33;3;YES;0;10,43;1,63;0,00;0,01;1,00;0,00
+PF3D7_0721600;40S ribosomal protein S5, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;10,26;2,21;0,01;0,03;0,99;0,00
+PF3D7_1343000;phosphoethanolamine N-methyltransferase (PMT);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;10,18;2,46;0,01;0,05;0,98;0,00
+PF3D7_1439800;vesicle-associated membrane protein, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;9,81;1,47;0,00;0,01;1,00;0,00
+PF3D7_1015900;enolase (ENO);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;9,76;2,73;0,02;0,06;1,00;0,00
+PF3D7_0305700;ubiquitin-conjugating enzyme E2, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;9,34;2,68;0,02;0,06;0,84;0,01
+PF3D7_0903700;alpha tubulin 1;5;-;2;6;YES;0;3;NO;0;1,49;3,97;0,58;0,65;0,01;0,49;3;YES;0;9,17;4,91;0,03;0,11;0,99;0,00
+PF3D7_0803800;proteasome subunit beta type-4;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;8,89;1,47;0,00;0,01;1,00;0,00
+PF3D7_0422400;40S ribosomal protein S19 (RPS19);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;8,65;1,07;0,00;0,00;1,00;0,00
+PF3D7_0708400;heat shock protein 90 (HSP90);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;8,55;1,48;0,00;0,01;1,00;0,00
+PF3D7_1412300;nuclear transport factor 2, putative (NTF2);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;8,47;2,18;0,01;0,04;1,00;0,00
+PF3D7_1310700;RNA-binding protein, putative;5;-;1;3;YES;0;0;NO;0;0,63;2,23;0,37;0,43;-;-;3;YES;0;8,03;4,42;0,03;0,09;0,96;0,00
+PF3D7_1341800;inner membrane complex protein 1k, putative (IMC1k);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;7,83;1,80;0,00;0,02;1,00;0,00
+PF3D7_1357000,PF3D7_1357100;elongation factor 1-alpha;5;-;3;4;YES;0;1;NO;0;0,36;7,10;0,28;0,43;0,00;0,83;3;YES;0;7,72;2,81;0,01;0,06;1,00;0,00
+PF3D7_1244600;ADP-ribosylation factor GTPase-activating protein, putative (ARFGAP);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;7,72;2,59;0,02;0,07;0,99;0,00
+PF3D7_0621400;Pf77 protein (ALV7);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;7,56;1,23;0,00;0,00;1,00;0,00
+PF3D7_0821400;conserved Plasmodium protein, unknown function;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;7,32;1,08;0,00;0,00;1,00;0,00
+PF3D7_1219700;raf kinase inhibitor (RKIP);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;7,27;2,81;0,03;0,09;0,96;0,00
+PF3D7_1222700;glideosome-associated protein 45 (GAP45);5;-;2;3;YES;0;0;NO;0;0,50;2,00;0,16;0,43;-;-;3;YES;0;7,16;4,14;0,03;0,09;0,96;0,00
+PF3D7_1105100;histone H2B (H2B);5;-;2;3;YES;0;0;NO;0;0,50;2,00;0,16;0,43;-;-;3;YES;0;6,85;3,51;0,02;0,07;1,00;0,00
+PF3D7_1006000;conserved Plasmodium protein, unknown function;5;-;2;3;YES;0;0;NO;0;0,41;2,28;0,13;0,43;-;-;3;YES;0;6,65;3,67;0,03;0,09;0,98;0,00
+PF3D7_1028600;conserved Plasmodium protein, unknown function;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;6,65;1,09;0,00;0,00;1,00;0,00
+PF3D7_1226300;haloacid dehalogenase-like hydrolase, putative (HAD2);5;-;0;4;YES;0;1;NO;0;1,44;1,89;0,37;0,43;0,23;0,36;3;YES;0;6,65;1,09;0,00;0,00;1,00;0,00
+PF3D7_1017500;conserved Plasmodium protein, unknown function;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;6,60;1,74;0,00;0,02;1,00;0,00
+PF3D7_0513300;purine nucleoside phosphorylase (PNP);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;6,16;2,08;0,01;0,05;0,98;0,00
+PF3D7_0209500;conserved Plasmodium protein, unknown function;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;6,11;2,70;0,03;0,11;0,92;0,01
+PF3D7_1204300;eukaryotic translation initiation factor 5A (EIF5A);5;-;1;3;YES;0;0;NO;0;0,50;3,32;0,37;0,43;-;-;3;YES;0;6,10;6,55;0,09;0,24;0,90;0,01
+PF3D7_1465900;40S ribosomal protein S3;5;-;0;4;YES;0;1;NO;0;1,44;1,89;0,37;0,43;0,24;0,35;3;YES;0;6,08;1,40;0,00;0,01;1,00;0,00
+PF3D7_1366500;nucleoside diphosphate kinase (NDK);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;6,07;1,44;0,00;0,01;1,00;0,00
+PF3D7_0307200;60S ribosomal protein L7, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;5,65;2,36;0,03;0,09;0,95;0,01
+PF3D7_0304000;inner membrane complex protein 1a, putative (IMC1a);5;-;3;6;YES;0;3;NO;0;0,51;4,78;0,36;0,43;0,00;0,83;3;YES;0;5,52;5,16;0,06;0,19;0,78;0,02
+PF3D7_1207400;conserved Plasmodium protein, unknown function;5;-;0;4;YES;0;1;NO;0;1,44;1,89;0,37;0,43;0,20;0,40;3;YES;0;5,38;2,56;0,04;0,11;0,79;0,02
+PF3D7_0317600;40S ribosomal protein S11, putative (RPS11);5;-;1;3;YES;0;0;NO;0;0,79;1,49;0,37;0,43;-;-;3;YES;0;5,31;2,47;0,01;0,05;0,99;0,00
+PF3D7_0517000;60S ribosomal protein L12, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;5,31;1,83;0,01;0,04;0,99;0,00
+PF3D7_0806500;DnaJ protein, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;5,28;1,63;0,00;0,02;0,98;0,00
+PF3D7_1142500;60S ribosomal protein L28 (RPL28);5;-;1;3;YES;0;0;NO;0;0,69;1,89;0,37;0,43;-;-;3;YES;0;5,28;2,18;0,01;0,05;0,99;0,00
+PF3D7_1019400;60S ribosomal protein L30e, putative;5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;5,13;1,73;0,01;0,03;0,99;0,00
+PF3D7_1361100;protein transport protein Sec24A (SEC24A);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,93;1,63;0,00;0,03;0,98;0,00
+PF3D7_0816200;vacuolar protein sorting-associated protein 2, putative (VPS2);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,48;1,43;0,00;0,01;0,99;0,00
+PF3D7_1129000;spermidine synthase (SpdSyn);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,48;1,43;0,00;0,01;0,99;0,00
+PF3D7_0913200;elongation factor 1-beta (EF-1beta);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,48;2,00;0,02;0,07;0,98;0,00
+PF3D7_0512600;ras-related protein Rab-1B (RAB1b);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,33;1,89;0,02;0,06;0,97;0,00
+PF3D7_1421200;40S ribosomal protein S25 (RPS25);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,16;1,42;0,00;0,01;0,99;0,00
+PF3D7_1235600;serine hydroxymethyltransferase (SHMT);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;4,16;1,89;0,02;0,06;0,83;0,01
+PF3D7_1211400;heat shock protein DNAJ homologue Pfj4 (PfJ4);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;3,63;1,74;0,02;0,06;0,90;0,01
+PF3D7_1468700;eukaryotic initiation factor 4A (eIF4A);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;3,30;1,18;0,00;0,00;0,98;0,00
+PF3D7_1457200;thioredoxin 1 (TRX1);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;3,17;2,23;0,07;0,19;0,84;0,01
+PF3D7_1003600;inner membrane complex protein 1c, putative (IMC1c);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;3,11;1,58;0,01;0,05;0,91;0,01
+PF3D7_1466300;26S proteasome regulatory subunit RPN2, putative (RPN2);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;3,11;1,58;0,01;0,05;0,62;0,06
+PF3D7_0422300;alpha tubulin 2;5;-;0;4;YES;0;1;NO;0;1,26;1,49;0,37;0,43;0,00;0,83;3;YES;0;2,71;1,70;0,03;0,10;0,79;0,02
+PF3D7_0919000;nucleosome assembly protein (NAPS);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;2,62;1,26;0,00;0,01;0,90;0,01
+PF3D7_0714000;histone H2B variant (H2B.Z);5;-;0;3;YES;0;0;NO;0;-;-;-;-;-;-;3;YES;0;2,62;1,26;0,00;0,01;0,92;0,01
+PF3D7_0619400;cell division cycle protein 48 homologue, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;8,00;6,26;0,12;0,29;0,64;0,05
+PF3D7_0525800;inner membrane complex protein 1g, putative (IMC1g);5;-;0;3;YES;0;1;NO;0;1,44;1,89;0,37;0,43;0,23;0,38;2;YES;0;6,23;5,06;0,12;0,29;0,66;0,03
+PF3D7_0617900;histone H3 variant, putative (H3.3);5;-;0;3;YES;0;1;NO;0;1,71;2,53;0,37;0,43;0,30;0,22;2;YES;0;5,72;4,60;0,12;0,29;0,65;0,03
+PF3D7_1463500;fam-a protein;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;5,07;4,10;0,12;0,29;0,65;0,04
+PF3D7_0922200;S-adenosylmethionine synthetase (SAMS);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;4,93;3,99;0,12;0,29;0,66;0,03
+PF3D7_1338300;elongation factor 1-gamma, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;4,82;4,02;0,12;0,29;0,64;0,05
+PF3D7_1012400;hypoxanthine-guanine phosphoribosyltransferase (HGPRT);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;4,51;4,81;0,17;0,34;0,58;0,09
+PF3D7_1020900;ADP-ribosylation factor (ARF1);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;4,31;3,56;0,12;0,29;0,66;0,02
+PF3D7_0626800;pyruvate kinase (PyrK);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;4,22;3,90;0,14;0,31;0,62;0,06
+PF3D7_1116900;conserved Plasmodium protein, unknown function;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;4,08;4,12;0,16;0,33;0,63;0,06
+PF3D7_0207300;serine repeat antigen 8 (SERA8);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;4,02;3,66;0,14;0,30;0,57;0,10
+PF3D7_1351400;60S ribosomal protein L17, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,83;3,20;0,12;0,29;0,65;0,03
+PF3D7_1215000;thioredoxin peroxidase 2 (Trx-Px2);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,63;3,47;0,15;0,31;0,63;0,06
+PF3D7_1003500;40S ribosomal protein S20e, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,53;3,33;0,14;0,31;0,65;0,04
+PF3D7_1230100;thioredoxin-like associated protein 1, putative (TLAP1);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,53;3,33;0,14;0,31;0,58;0,09
+PF3D7_1229400;macrophage migration inhibitory factor (MIF);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,27;2,83;0,12;0,29;0,65;0,04
+PF3D7_0209800;ATP-dependent RNA helicase UAP56 (UAP56);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;3,04;2,72;0,13;0,29;0,58;0,09
+PF3D7_0106800;ras-related protein Rab-5C (RAB5c);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,88;2,83;0,15;0,32;0,60;0,08
+PF3D7_1302800;40S ribosomal protein S7, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,76;2,65;0,15;0,31;0,60;0,08
+PF3D7_1004000;60S ribosomal protein L13, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,71;2,39;0,12;0,29;0,61;0,07
+PF3D7_1006800;RNA-binding protein, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,47;2,28;0,13;0,30;0,59;0,09
+PF3D7_1230400;ATP-dependent protease subunit ClpQ (ClpQ);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,29;2,08;0,12;0,29;0,57;0,10
+PF3D7_1460700;60S ribosomal protein L27 (RPL27);5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,29;2,08;0,12;0,29;0,60;0,07
+PF3D7_0308500;activator of Hsp90 ATPase, putative;5;-;0;2;YES;0;0;NO;0;-;-;-;-;-;-;2;YES;0;2,08;1,89;0,12;0,29;0,59;0,08
+PF3D7_0503400;actin-depolymerizing factor 1 (ADF1);6;-;2;3;NO;0;0;NO;0;0,32;3,16;0,16;0,43;-;-;3;NO;0;5,38;11,34;0,17;0,33;0,36;0,17
+PF3D7_1360800;falcilysin (FLN);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;4,82;4,02;0,12;0,29;0,56;0,10
+PF3D7_0214100;protein transport protein sec31 (SEC31);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;4,50;3,81;0,12;0,29;0,49;0,13
+PF3D7_0524000;karyopherin beta (KASbeta);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;3,73;3,61;0,15;0,32;0,50;0,12
+PF3D7_1409800;CUGBP Elav-like family member 2, putative (CELF2);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;3,30;2,81;0,12;0,29;0,57;0,10
+PF3D7_0703500;erythrocyte membrane-associated antigen;6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,88;3,60;0,23;0,38;0,20;0,36
+PF3D7_0820700;2-oxoglutarate dehydrogenase E1 component (KDH);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,88;2,83;0,15;0,32;0,44;0,15
+PF3D7_1454700;6-phosphogluconate dehydrogenase, decarboxylating, putative;6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,71;2,39;0,12;0,29;0,54;0,11
+PF3D7_0931800;proteasome subunit beta type-6, putative;6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,71;3,26;0,22;0,38;0,46;0,14
+PF3D7_1242800;rab specific GDP dissociation inhibitor (rabGDI);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,52;2,23;0,12;0,29;0,55;0,11
+PF3D7_0320300;T-complex protein 1 subunit epsilon (CCT5);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,52;2,88;0,21;0,38;0,42;0,16
+PF3D7_1466100;protein phosphatase containing kelch-like domains (PPKL);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,47;2,28;0,13;0,30;0,39;0,16
+PF3D7_0520900;S-adenosyl-L-homocysteine hydrolase (SAHH);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,47;2,28;0,13;0,30;0,51;0,12
+PF3D7_1223100;cAMP-dependent protein kinase regulatory subunit (PKAr);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,29;2,08;0,12;0,29;0,49;0,13
+PF3D7_1229500;T-complex protein 1 subunit gamma (CCT3);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,29;2,08;0,12;0,29;0,47;0,14
+PF3D7_0909500;subpellicular microtubule protein 1, putative (SPM1);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,29;2,47;0,19;0,36;0,44;0,15
+PF3D7_1136500.1,PF3D7_1136500.2;casein kinase 1;6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,29;2,08;0,12;0,29;0,53;0,12
+PF3D7_1026800;40S ribosomal protein S2 (RPS2);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,15;2,24;0,17;0,34;0,50;0,13
+PF3D7_1325100;phosphoribosylpyrophosphate synthetase;6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,15;2,24;0,17;0,34;0,42;0,15
+PF3D7_0826700;receptor for activated c kinase (RACK);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,08;1,89;0,12;0,29;0,51;0,12
+PF3D7_1446200;M17 leucyl aminopeptidase (LAP);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,00;2,00;0,16;0,32;0,36;0,17
+PF3D7_1342800;phosphoenolpyruvate carboxykinase (PEPCK);6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;2,00;2,00;0,16;0,32;0,36;0,17
+PF3D7_1111500;acylphosphatase, putative;6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;1,82;1,74;0,14;0,30;0,54;0,11
+PF3D7_1431600;ATP-specific succinyl-CoA synthetase beta subunit, putative;6;-;0;2;NO;0;0;NO;0;-;-;-;-;-;-;2;NO;0;1,59;1,49;0,12;0,29;0,00;0,73
+PF3D7_0729900;dynein heavy chain, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;3,78;10,00;0,37;0,38;0,26;0,31
+PF3D7_0709700;lysophospholipase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;3,63;9,35;0,37;0,38;0,33;0,18
+PF3D7_1211000;kinesin-7, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,71;5,64;0,37;0,38;0,25;0,31
+PF3D7_0708800;heat shock protein 110 (HSP110c);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,67;5,47;0,37;0,38;0,30;0,23
+PF3D7_0622800;leucine--tRNA ligase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,57;5,13;0,37;0,38;0,27;0,28
+PF3D7_0915400;6-phosphofructokinase (PFK9);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,52;4,96;0,37;0,38;0,25;0,32
+PF3D7_0410500;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,47;4,78;0,37;0,38;0,33;0,18
+PF3D7_1110700;actin-like protein, putative (ALP1);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,35;4,40;0,37;0,38;0,32;0,19
+PF3D7_1435300;NAD(P)H-dependent glutamate synthase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,35;4,40;0,37;0,38;0,15;0,38
+PF3D7_0621800;nascent polypeptide associated complex alpha chain, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,29;4,20;0,37;0,38;0,32;0,19
+PF3D7_1329100;myosin C (MyoC);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,22;3,99;0,37;0,38;0,17;0,37
+PF3D7_0416800;small GTP-binding protein sar1 (SAR1);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,15;3,78;0,37;0,38;0,32;0,18
+PF3D7_0920500;ADP-ribosylation factor, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,08;3,56;0,37;0,38;0,31;0,21
+PF3D7_0617800;histone H2A (H2A);6;-;0;2;NO;0;1;NO;0;1,44;1,89;0,37;0,43;0,26;0,28;1;NO;0;2,08;3,56;0,37;0,38;0,32;0,20
+PF3D7_0910000;SET domain protein, putative (SET4);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,08;3,56;0,37;0,38;0,24;0,33
+PF3D7_0306300;glutaredoxin 1 (GRX1);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,00;3,32;0,37;0,38;0,32;0,19
+PF3D7_1464700;ATP synthase (C/AC39) subunit, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,00;3,32;0,37;0,38;0,30;0,24
+PF3D7_0810600;RNA helicase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;2,00;3,32;0,37;0,38;0,23;0,34
+PF3D7_1349200;glutamate--tRNA ligase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,23;0,35
+PF3D7_0513800;ras-related protein Rab-1A (RAB1a);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,32;0,21
+PF3D7_0903200;ras-related protein RAB7 (RAB7);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,31;0,22
+PF3D7_1105000;histone H4 (H4);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,32;0,19
+PF3D7_1130200;60S ribosomal protein P0 (PfP0);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,30;0,24
+PF3D7_1213800;proline--tRNA ligase (PRS);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,91;3,08;0,37;0,38;0,25;0,32
+PF3D7_0108300;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,10;0,39
+PF3D7_0307100;40S ribosomal protein S12, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,32;0,20
+PF3D7_0617300;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,31;0,22
+PF3D7_0828900;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,30;0,22
+PF3D7_0419600;ran binding protein 1, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,30;0,24
+PF3D7_0624000;hexokinase (HK);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,26;0,31
+PF3D7_1439400;ubiquinol-cytochrome c reductase iron-sulfur subunit, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,82;2,81;0,37;0,38;0,28;0,26
+PF3D7_1132200;T-complex protein 1 subunit alpha (TCP1);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,23;0,33
+PF3D7_1327300;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,10;0,40
+PF3D7_0218500;small nuclear ribonucleoprotein Sm D2, putative (SNRPD2);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,32;0,20
+PF3D7_1361900;proliferating cell nuclear antigen 1 (PCNA1);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,29;0,26
+PF3D7_0413600;26S protease regulatory subunit 6B, putative (RPT3);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,26;0,30
+PF3D7_0302900;exportin-1, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,16;0,38
+PF3D7_1113000;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,01;0,41
+PF3D7_1474800;proteasome subunit alpha type-1, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,29;0,25
+PF3D7_1124600;ethanolamine kinase (EK);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,71;2,53;0,37;0,38;0,25;0,31
+PF3D7_0422600;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,30;0,23
+PF3D7_1416900;prefoldin subunit 2, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,29;0,25
+PF3D7_1330000.1;thioredoxin, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,28;0,27
+PF3D7_0108000;proteasome subunit beta type-3, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,27;0,28
+PF3D7_0727400;proteasome subunit alpha type-5, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,26;0,30
+PF3D7_1029600;adenosine deaminase (ADA);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,25;0,32
+PF3D7_1248900;26S protease regulatory subunit 8, putative (RPT6);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,23;0,34
+PF3D7_0214000;T-complex protein 1 subunit theta (CCT8);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,21;0,35
+PF3D7_1219100;clathrin heavy chain, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,07;0,40
+PF3D7_0721400;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,28;0,27
+PF3D7_1414300;60S ribosomal protein L10, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,28;0,27
+PF3D7_1323100;60S ribosomal protein L6, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,28;0,27
+PF3D7_1011400;proteasome subunit beta type-5;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,27;0,29
+PF3D7_1439700;leucine carboxyl methyltransferase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,24;0,33
+PF3D7_0406100;V-type proton ATPase subunit B;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,20;0,36
+PF3D7_0306800;T-complex protein 1 subunit beta (CCT2);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,19;0,37
+PF3D7_1107800;transcription factor with AP2 domain(s) (ApiAP2);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,06;0,40
+PF3D7_1360900;polyadenylate-binding protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,23;0,34
+PF3D7_1442300;tRNA binding protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,23;0,35
+PF3D7_0217100;ATP synthase F1, alpha subunit;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,59;2,23;0,37;0,38;0,20;0,36
+PF3D7_1332900;isoleucine--tRNA ligase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,07;0,40
+PF3D7_0931300;asparagine-rich antigen, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,20;0,36
+PF3D7_1011800;PRE-binding protein (PREBP);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,07;0,40
+PF3D7_1127200;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,29;0,25
+PF3D7_0309600;60S acidic ribosomal protein P2 (PfP2);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,27;0,28
+PF3D7_1447500;inner membrane complex protein, putative (IMC20);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,27;0,29
+PF3D7_1317800;40S ribosomal protein S19 (RPS19);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,27;0,30
+PF3D7_1426100;basic transcription factor 3b, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,26;0,30
+PF3D7_0529500;cell cycle regulator protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,25;0,32
+PF3D7_0414600;conserved protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,24;0,33
+PF3D7_1333400;conserved protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,23;0,34
+PF3D7_0813300;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,21;0,36
+PF3D7_0722400;GTP-binding protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,19;0,37
+PF3D7_1357800;T-complex protein 1 subunit delta (CCT4);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,15;0,38
+PF3D7_1251200;coronin;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,14;0,38
+PF3D7_0720400;ferrodoxin reductase-like protein;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,14;0,39
+PF3D7_0932800;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,06;0,41
+PF3D7_0109400;tubulin-specific chaperone a, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,26;0,30
+PF3D7_0719600;60S ribosomal protein L11a, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,26;0,31
+PF3D7_0528700;peptidyl-prolyl cis-trans isomerase (CYP23);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,25;0,32
+PF3D7_1304500;small heat shock protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,24;0,33
+PF3D7_1131500;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,24;0,33
+PF3D7_0518300;proteasome subunit beta type-1, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,23;0,34
+PF3D7_1127600;CRAL/TRIO domain-containing protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,22;0,35
+PF3D7_1474900;trailer hitch homolog, putative (CITH);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,21;0,35
+PF3D7_0511800;inositol-3-phosphate synthase (INO1);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,14;0,38
+PF3D7_0610800;transketolase (TK);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,14;0,39
+PF3D7_0624600;SNF2 helicase, putative (ISWI);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,44;1,89;0,37;0,38;0,01;0,41
+PF3D7_0308200;T-complex protein 1 subunit eta (CCT7);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0320000;protein phosphatase inhibitor 2 (I2);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0605100;RNA-binding protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0717500;calcium-dependent protein kinase 4 (CDPK4);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0717700;serine--tRNA ligase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1111600;endonuclease/exonuclease/phosphatase family protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1132300;nucleic acid binding protein, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1430300;acid phosphatase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1461900;valine--tRNA ligase, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0212300;peptide chain release factor subunit 1, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0517300;serine/arginine-rich splicing factor 1 (SR1);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0812400;karyopherin alpha (KARalpha);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0817900;high mobility group protein B2 (HMGB2);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1311900;V-type proton ATPase catalytic subunit A (vapA);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1318300;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1331800;60S ribosomal protein L23, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1341200;60S ribosomal protein L18, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1341900;V-type proton ATPase subunit D, putative;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1365500;glycine cleavage system T protein, putative (GCVT);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_0520400;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1342100;aconitate hydratase (IRP);6;-;0;1;NO;0;0;NO;0;-;-;-;-;-;-;1;NO;0;1,26;1,49;0,37;0,38;0,00;0,73
+PF3D7_1312800;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;1;NO;0;1,44;1,89;0,37;0,43;0,02;0,48;0;NO;0;-;-;-;-;-;-
+PF3D7_1455300;conserved Plasmodium protein, unknown function;6;-;0;1;NO;0;1;NO;0;1,44;1,89;0,37;0,43;0,14;0,43;0;NO;0;-;-;-;-;-;-
