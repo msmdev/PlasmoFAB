@@ -1,13 +1,13 @@
 # PlasmoFAB Code Repository
 
-This repository contains scripts that were be used in the creation of the PlasmoFAB dataset. The dataset can be found on [Zenodo](https://doi.org/10.5281/zenodo.7433087). Furthermore, we provide implementations of all experiments described in the manuscript _PlasmoFAB: A Curated Benchmark for Antigen Candidate Exploration in_ ***Plasmodium falciparum***.
+This repository contains scripts that were be used in the creation of the PlasmoFAB dataset. The dataset can be found on [Zenodo](https://doi.org/10.5281/zenodo.7433087). Furthermore, we provide implementations of all experiments described in the manuscript **PlasmoFAB: A Curated Benchmark for Antigen Candidate Exploration in** ***Plasmodium falciparum***.
 
 ## Install instructions
 -------
 
 1.  Clone the repository  
 
-  `git clone git@github.com:jacqui20/PfMPTool.git`
+  `git clone git@github.com:msmdev/PlasmoFAB.git`
 
 2.  Create conda env
 
