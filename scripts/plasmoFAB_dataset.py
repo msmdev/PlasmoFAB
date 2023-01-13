@@ -473,6 +473,6 @@ if __name__ == '__main__':
     # parser.add_argument('-save_splits', help='Whether or not to save CV splits as .npy', default=None)
     # parser.add_argument('-save_np', help='Whether or not to save train and test sets as .npy', default=None)
     parser.add_argument('-save_plasmodb', help='Whether or not to save annotated plasmoDB dataframe to csv', default=True)
-    parser.add_argument('-all_columns', help='Whether to include all columns in CSV file', choices=[True, False], default=False)
+    parser.add_argument('-all_columns', help='Whether to include all columns in CSV file', default=False)
     args = parser.parse_args()
     main(args)

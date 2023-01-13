@@ -6,27 +6,27 @@ import torch
 from Bio import SeqIO
 
 
-def pfal_fasta_to_dataframe(fasta: str) -> pd.DataFrame:
+def fasta_to_dataframe(fasta: str) -> pd.DataFrame:
     """Creates DataFrame from fasta
 
     Args:
-        fasta (str): pfal data fasta
+        fasta (str): dataset fasta
 
     Returns:
-        pd.DataFrame: pfal as Dataframe
+        pd.DataFrame: plasmoFAB as Dataframe
     """
     df = pd.DataFrame(columns=['transcript', 'seq', 'type', 'test'])
     for record in SeqIO.parse(fasta, 'fasta'):
         transcript = str(record.id)
         seq = str(record.seq)
-        description = str(record.description).split(' ')
+        description = str(record.description).split('|')
         label = int(description[1])
         test = True if str(description[2]) == 'True' else False
         df.loc[len(df.index)] = [transcript, seq, label, test]
     return df
 
 
-def load_pfal_fasta(path_to_fasta: str):
+def load_fasta(path_to_fasta: str):
     """Loads pfal fasta and returns train, test splits
 
     Args:
@@ -39,7 +39,7 @@ def load_pfal_fasta(path_to_fasta: str):
     for record in SeqIO.parse(path_to_fasta, 'fasta'):
         genes.append(str(record.id))
         sequences.append(str(record.seq))
-        description = str(record.description).split(' ')
+        description = str(record.description).split('|')
         labels.append(int(description[1]))
         test.append(description[2])
 
@@ -70,12 +70,10 @@ def load_t5_embeddings(
         tuple[np.array, np.array, np.array, np.array]: X_train, y_train, X_test, y_test
     """
 
-    if dataset == 'pfal':
-        df = pfal_fasta_to_dataframe(fasta_path)
+    if dataset == 'plasmoFAB':
+        df = pd.read_csv('data/plasmo_fab/plasmoFAB.csv')
     elif dataset == 'deeploc':
         df = deeploc_fasta_to_dataframe(fasta_path)
-    elif dataset == 'plasmo_fab':
-        df = pfal_fasta_to_dataframe(fasta_path)
     else:
         raise Exception("Unsupported dataset. Only pfal and deeploc supported")
     # locate train and test samples
@@ -136,7 +134,7 @@ def load_plasmodb_esm_embeddings(emb_path: str, pfal_fasta: str, layer: int = 33
     Returns:
         np.array: array of embeddings
     """
-    pfal = pfal_fasta_to_dataframe(pfal_fasta)
+    pfal = fasta_to_dataframe(pfal_fasta)
     files = os.listdir(emb_path)
     genes, embs = [], []
     for file in files:

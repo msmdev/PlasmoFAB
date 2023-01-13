@@ -1,0 +1,116 @@
+﻿transcript;description
+PF3D7_1467300.1;1-deoxy-D-xylulose 5-phosphate reductoisomerase, apicoplastic (1-deoxyxylulose-5-phosphate reductoisomerase) (DOXP reductoisomerase) (DXP reductoisomerase) (EC 1.1.1.267)
+PF3D7_0209300.1;2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase, apicoplast (MECDP-synthase) (MECPS) (EC 4.6.1.12) (PfIspF)
+PF3D7_0104400.1;4-hydroxy-3-methylbut-2-enyl diphosphate reductase, apicoplast (HMBPP reductase) (EC 1.17.7.4)
+PF3D7_0307100.1;40S ribosomal protein S12
+PF3D7_0219200.1;40S ribosomal protein S30
+PF3D7_0322900.1;40S ribosomal protein S3a
+PF3D7_1026800.1;40S ribosomal protein SA (40S ribosomal protein S2)
+PF3D7_0309600.1;60S acidic ribosomal protein P2
+PF3D7_0210100.1;60S ribosomal protein L37a
+PF3D7_0304400.1;60S ribosomal protein L44
+PF3D7_1246200.1;Actin-1 (PfAct1) (EC 3.6.4.-) (Actin I) (PfActI)
+PF3D7_1412500.1;Actin-2 (EC 3.6.4.-) (Actin II)
+PF3D7_0520900.1;Adenosylhomocysteinase (AdoHcyase) (EC 3.3.1.1) (PfSAHH) (S-adenosyl-L-homocysteine hydrolase)
+PF3D7_1008900.1;Adenylate kinase 1 (PfAK1) (EC 2.7.4.3)
+PF3D7_0110900.1;Adenylate kinase isoenzyme 6 homolog (AK6) (EC 2.7.4.3) (Dual activity adenylate kinase/ATPase) (AK/ATPase) (PfAKLP1)
+PF3D7_1354500.1;Adenylosuccinate synthetase (AMPSase) (AdSS) (EC 6.3.4.4) (IMP--aspartate ligase)
+PF3D7_1020900.1;ADP-ribosylation factor 1 (PfARF1) (EC 3.6.5.2)
+PF3D7_0924900.1;Alpha-tubulin N-acetyltransferase (Alpha-TAT) (TAT) (EC 2.3.1.108) (Acetyltransferase mec-17 homolog)
+PF3D7_0824600.1;Anamorsin homolog (Fe-S cluster assembly protein DRE2 homolog)
+PF3D7_0420300.1;AP2/ERF domain-containing protein PFD0985w (ApiAP2)
+PF3D7_0415000.1;ATPase ASNA1 homolog (EC 3.6.-.-) (Arsenical pump-driving ATPase homolog) (Arsenite-stimulated ATPase)
+PF3D7_0610600.1;Calcium-dependent protein kinase 2 (EC 2.7.11.1) (PfCDPK2)
+PF3D7_1434200.1;Calmodulin (PfCaM)
+PF3D7_1436600.1;cGMP-dependent protein kinase (EC 2.7.11.12) (PfPKG)
+PF3D7_0503400.1;Cofilin/actin-depolymerizing factor homolog 1
+PF3D7_1361400.1;Cofilin/actin-depolymerizing factor homolog 2
+PF3D7_1356900.1;Cyclin-dependent kinase 2 homolog (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Protein kinase 5) (PfPK5) (cdc2-related kinase 2)
+PF3D7_1108200.1;D-aminoacyl-tRNA deacylase (PfDTD) (EC 3.1.1.96) (D-Tyrosyl-tRNA(Tyr) deacylase) (Gly-tRNA(Ala) deacylase) (Gly-tRNA(Gly) deacylase)
+PF3D7_0603300.1;Dihydroorotate dehydrogenase (quinone), mitochondrial (DHOdehase) (EC 1.3.5.2) (Dihydroorotate oxidase)
+PF3D7_1116700.1;"Dipeptidyl aminopeptidase 1 (Cathepsin C homolog) (EC 3.4.14.1) [Cleaved into: Dipeptidyl aminopeptidase 1 exclusion domain chain.1; Dipeptidyl aminopeptidase 1 heavy chain.1; Dipeptidyl aminopeptidase 1 light chain]"
+PF3D7_1438700.1;DNA primase small subunit (EC 2.7.7.102) (DNA primase 53 kDa subunit)
+PF3D7_API04400.1;DNA-directed RNA polymerase subunit beta (EC 2.7.7.6) (PEP) (Plastid-encoded RNA polymerase subunit beta) (RNA polymerase subunit beta)
+PF3D7_API04300.1;DNA-directed RNA polymerase subunit beta' (EC 2.7.7.6) (PEP) (Plastid-encoded RNA polymerase subunit beta') (RNA polymerase subunit beta')
+PF3D7_API04200.1;DNA-directed RNA polymerase subunit beta'' (EC 2.7.7.6) (PEP) (Plastid-encoded RNA polymerase subunit beta'') (RNA polymerase subunit beta'')
+PF3D7_0517800.1;Doublecortin domain-containing protein (PfApicortin)
+PF3D7_0729900.1;Dynein heavy chain-like protein 1
+PF3D7_1122900.1;Dynein heavy chain-like protein 2
+PF3D7_0305000.1;Elongation factor Ts, mitochondrial (EF-Ts) (EF-TsMt)
+PF3D7_API02900.1;Elongation factor Tu, apicoplast (EF-Tu)
+PF3D7_1353600.1;ER lumen protein-retaining receptor
+PF3D7_1360800.1;Falcilysin (EC 3.4.24.-)
+PF3D7_0623200.1;Ferredoxin--NADP reductase, apicoplast (EC 1.18.1.2)
+PF3D7_1318100.1;Ferredoxin, apicoplast
+PF3D7_0408500.1;Flap endonuclease 1 (FEN-1) (EC 3.1.-.-) (Flap structure-specific endonuclease 1)
+PF3D7_1419800.1;Glutathione reductase (GRase) (PfGR) (EC 1.8.1.7)
+PF3D7_1412800.1;Glycylpeptide N-tetradecanoyltransferase (EC 2.3.1.97) (Myristoyl-CoA:protein N-myristoyltransferase) (N-myristoyltransferase)
+PF3D7_0415600.1;GTP:AMP phosphotransferase (PfGAK) (EC 2.7.4.10)
+PF3D7_1446800.1;Heme ligase (EC 4.99.1.8) (Heme detoxification protein) (PfHDP) (Hemozoin synthase)
+PF3D7_1434300.1;Hsp70-Hsp90 organising protein (PfHOP) (Stress-inducible protein 1)
+PF3D7_0931900.1;Inactive adenylate kinase (Adenylate kinase-like protein 2)
+PF3D7_0923600.1;Inactive lipoate--protein ligase 2
+PF3D7_0720800.1;Inosine triphosphate pyrophosphatase (ITPase) (Inosine triphosphatase) (EC 3.6.1.9) (Non-canonical purine NTP pyrophosphatase) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)
+PF3D7_0511800.1;Inositol-3-phosphate synthase 1 (IPS 1) (EC 5.5.1.4) (Myo-inositol 1-phosphate synthase) (MI-1-P synthase) (MIP synthase) (MIPS)
+PF3D7_1314600.1;Lipoate--protein ligase 1 (EC 6.3.1.20)
+PF3D7_1344600.1;Lipoyl synthase, apicoplast (EC 2.8.1.8) (Lipoate synthase) (LS) (Lip-syn) (Lipoic acid synthase)
+PF3D7_1438400.1;Metacaspase-2 (EC 3.4.22.-) (PfMCA2)
+PF3D7_1015300.1;Methionine aminopeptidase 1b (EC 3.4.11.18) (PfMetAP1b)
+PF3D7_1120300.1;Mitochondrial inner membrane magnesium transporter MIT1
+PF3D7_1315800.1;Myb1 protein (PfMyb1)
+PF3D7_1451400.1;NAD-dependent protein deacetylase Sir2B (PfSir2B) (EC 2.3.1.286) (Regulatory protein SIR2 homolog B) (SIR2-like protein B)
+PF3D7_1328800.1;NAD-dependent protein deacylase Sir2A (EC 2.3.1.-) (PfSir2) (PfSir2A) (Regulatory protein SIR2 homolog A)
+PF3D7_1459700.1;NAD(P)H-hydrate epimerase (EC 5.1.99.6) (NAD(P)HX epimerase)
+PF3D7_1203000.1;Origin recognition complex subunit 1 (PfORC1) (EC 3.6.4.-)
+PF3D7_0215800.1;Origin recognition complex subunit 5 (PfORC5) (EC 3.6.4.-)
+PF3D7_0608800.1;Ornithine aminotransferase (PfOAT) (EC 2.6.1.13) (Ornithine--oxo-acid aminotransferase)
+PF3D7_1406400.1;Pentatricopeptide repeat-containing protein 1, apicoplast (PfPPR1)
+PF3D7_1233300.1;Pentatricopeptide repeat-containing protein 2
+PF3D7_1247400.1;Peptidyl-prolyl cis-trans isomerase FKBP35 (EC 5.2.1.8) (PfFKBP35)
+PF3D7_1107700.1;Pescadillo homolog (PfPES)
+PF3D7_0110600.1;Phosphatidylinositol 4-phosphate 5-kinase (EC 2.7.1.68)
+PF3D7_0922500.1;Phosphoglycerate kinase (EC 2.7.2.3)
+PF3D7_1323500.1;Plasmepsin V (PfPMV) (EC 3.4.23.-) (Plasmepsin 5)
+PF3D7_0808200.1;Plasmepsin X (PfPMX) (EC 3.4.23.-) (Plasmepsin 10)
+PF3D7_1248200.1;Pre-mRNA-splicing factor RBM22 homolog
+PF3D7_0820000.1;Probable ATP-dependent helicase PF08_0048 (EC 3.6.4.-)
+PF3D7_0605800.1;Probable DNA repair protein RAD50
+PF3D7_1304900.1;Probable DNA-directed RNA polymerase II subunit RPB11 (RNA polymerase II subunit B11) (DNA-directed RNA polymerase II subunit J)
+PF3D7_0316300.1;Probable inorganic pyrophosphatase (EC 3.6.1.1) (Pyrophosphate phospho-hydrolase) (PPase)
+PF3D7_0512000.1;Probable prefoldin subunit 6
+PF3D7_1247900.1;Probable U3 small nucleolar RNA-associated protein 11 (U3 snoRNA-associated protein 11)
+PF3D7_0932200.1;Profilin
+PF3D7_1361900.1;Proliferating cell nuclear antigen 1 (PfPCNA1)
+PF3D7_1226600.1;Proliferating cell nuclear antigen 2 (PfPCNA2)
+PF3D7_1213800.1;Proline--tRNA ligase (PfPRS) (EC 6.1.1.15) (Prolyl-tRNA synthetase) (PfProRS)
+PF3D7_1416100.1;Protein SEY1 homolog (EC 3.6.5.-)
+PF3D7_0513300.1;Purine nucleoside phosphorylase (EC 2.4.2.1) (PfPNP) (S-methyl-5'-thioinosine phosphorylase) (EC 2.4.2.44)
+PF3D7_0613400.1;Putative 50S ribosomal protein L18, apicoplastic
+PF3D7_0711000.1;Putative cell division cycle ATPase
+PF3D7_0709000.1;Putative chloroquine resistance transporter (PfCRT) (Probable transporter cg10)
+PF3D7_0629700.1;Putative histone-lysine N-methyltransferase 1 (PfSET1) (EC 2.1.1.-)
+PF3D7_0621200.1;Pyridoxal 5'-phosphate synthase subunit Pdx1 (PLP synthase subunit Pdx1) (EC 4.3.3.6)
+PF3D7_1116200.1;Pyridoxal 5'-phosphate synthase subunit PDX2 (PfPDX2) (EC 4.3.3.6) (Pyridoxal 5'-phosphate synthase glutaminase subunit) (EC 3.5.1.2)
+PF3D7_1105700.1;RNA-splicing ligase RtcB homolog (EC 6.5.1.8) (3'-phosphate/5'-hydroxy nucleic acid ligase)
+PF3D7_1235600.1;Serine hydroxymethyltransferase (EC 2.1.2.1) (PfSHMTc)
+PF3D7_1216000.1;Serine--tRNA ligase, cytoplasmic (EC 6.1.1.11) (Seryl-tRNA synthetase) (SerRS) (Seryl-tRNA(Ser/Sec) synthetase)
+PF3D7_1331300.1;Signal peptidase complex catalytic subunit SEC11 (PfSPC21) (EC 3.4.21.89) (Signal peptidase 21 kDa) (PfSP21)
+PF3D7_0320700.1;Signal peptidase complex subunit 2 (PfSPC25)
+PF3D7_1318400.1;Structural maintenance of chromosomes protein 2
+PF3D7_0414000.1;Structural maintenance of chromosomes protein 3 homolog
+PF3D7_0814900.1;Superoxide dismutase [Fe] (EC 1.15.1.1) (FeSOD)
+PF3D7_0308200.1;T-complex protein 1 subunit eta (TCP-1-eta) (CCT-eta)
+PF3D7_1457200.1;Thioredoxin 1 (PfTRX1)
+PF3D7_0916100.1;Thioredoxin 3 (PfTRX3)
+PF3D7_0923800.1;Thioredoxin reductase (PfTrxR) (EC 1.8.1.9)
+PF3D7_0911700.1;Translation factor GUF1 homolog, mitochondrial (EC 3.6.5.-) (Elongation factor 4 homolog) (EF-4) (GTPase GUF1 homolog) (Ribosomal back-translocase)
+PF3D7_0511000.1;Translationally-controlled tumor protein homolog (TCTP)
+PF3D7_1439900.1;Triosephosphate isomerase (PfTIM) (EC 5.3.1.1) (Triose-phosphate isomerase)
+PF3D7_0914300.1;tRNA (guanine(37)-N1)-methyltransferase (EC 2.1.1.228) (M1G-methyltransferase) (tRNA [GM37] methyltransferase) (tRNA methyltransferase 5 homolog)
+PF3D7_1008700.1;Tubulin beta chain (Beta-tubulin)
+PF3D7_0812700.1;U1 small nuclear ribonucleoprotein C (U1 snRNP C) (U1-C) (U1C)
+PF3D7_1112200.1;Ubiquinone biosynthesis protein COQ4 homolog, mitochondrial (Coenzyme Q biosynthesis protein 4 homolog)
+PF3D7_1117100.1;Ubiquitin carboxyl-terminal hydrolase UCH54 (EC 3.4.19.12) (PfUCH37) (PfUCH54)
+PF3D7_1460400.1;Ubiquitin carboxyl-terminal hydrolase UCHL3 (EC 3.4.19.12) (PfUCHL3)
+PF3D7_1250300.1;Vacuolar protein sorting-associated protein 26
+PF3D7_1322100.1;Variant-silencing SET domain-containing protein (PfSETvs) (EC 2.1.1.359) (SET domain-containing protein 2) (PfSET2)

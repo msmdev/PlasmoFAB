@@ -4,7 +4,7 @@
 
 import os
 
-from pfmptool.utils import load_pfal_fasta, load_deeploc_fasta, evaluate_cv_models, evaluate_model
+from pfmptool.utils import load_fasta, load_deeploc_fasta, evaluate_cv_models, evaluate_model
 
 #from pyBeast.OligoKernel import oligoKernel
 #from pyBeast.OligoEncoding import oligoEncoding
@@ -34,12 +34,12 @@ class OligoSVM():
         self.randint = randint
         self.dataset = dataset
 
-        if self.dataset == 'pfal':
-            self.X_train, self.y_train, self.X_test, self.y_test = load_pfal_fasta(fasta_path)
+        if self.dataset == 'plasmoFAB':
+            self.X_train, self.y_train, self.X_test, self.y_test = load_fasta(fasta_path)
         elif self.dataset == 'deeploc':
             self.X_train, self.y_train, self.X_test, self.y_test = load_deeploc_fasta(fasta_path)
         else:
-            raise Exception("Unsupported dataset. Only pfal and deeploc supported")
+            raise Exception("Unsupported dataset. Only plasmoFAB and deeploc supported")
 
         self.scorer = {
             'f1': make_scorer(f1_score),

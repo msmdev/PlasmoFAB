@@ -23,9 +23,9 @@ def main():
     parser.add_argument(
         '--embedding', help='Embedding to use', choices=['protT5', 'esm1b', 'onehot', 'oligo'])
     parser.add_argument('--C', help='Regularization parameter C for SVM and LR', default='0.1')
-    parser.add_argument('--dataset', help='Dataset to use', choices=['pfal', 'deeploc', 'plasmodb'])
+    parser.add_argument('--dataset', help='Dataset to use', choices=['plasmoFAB', 'pfal', 'deeploc', 'plasmodb'])
     parser.add_argument('--kernel_path', help='Path to oligo kernel .npy files', default=None)
-    parser.add_argument('--fasta', help='Path to oligo kernel .npy files', default=None)
+    parser.add_argument('--fasta', help='Path to dataset FASTA file', default=None)
     parser.add_argument('--emb_path', help='Path to embeddings directory')
     parser.add_argument(
         '--grid_C', help='List of comma-separated C floats used in grid search', default=None)

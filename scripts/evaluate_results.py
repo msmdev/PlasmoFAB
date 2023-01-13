@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # run like
-# python3 scripts/evaluate_results.py --model [DeepLoc | DeepTMHMM] --dataset [pfal | deeploc] --res_file [result_file] --out_file [out_file]
+# python3 scripts/evaluate_results.py --model [DeepLoc | DeepTMHMM] --dataset [plasmoFAB | deeploc] --res_file [result_file] --out_file [out_file]
 #
 from pfmptool.utils import evaluate_model, deeploc_fasta_to_dataframe, deeploc_membrane_fasta_to_dataframe
 
@@ -12,9 +12,6 @@ import os
 
 
 def main(model, res_file, dataset, out_file):
-
-    if dataset == 'pfal':
-        df_dataset = pd.read_csv('data/pfal/pfal.csv')
     if dataset == 'plasmoFAB':
         df_dataset = pd.read_csv('data/plasmo_fab/plasmoFAB.csv')
     elif dataset == 'deeploc':
@@ -66,20 +63,33 @@ def main(model, res_file, dataset, out_file):
 
 
 def eval_DeepLoc(res_file, df_dataset):
+    """Evaluates the prediction file of DeepLoc 2.0 against the true labels.
+
+    Args:
+        res_file: Result (prediction) file
+        df_dataset: DataFrame of dataset
+
+    Returns:
+        Scores and test scores
+    """
     res = pd.read_csv(res_file)
     res = res.rename(columns={'Protein_ID': 'transcript'})
+    # Class label 1 is assigned if
+    #   - Localization is predicted as cell membrane or extracellular
+    #   - Or signal peptide is predicted
     res['prediction'] = np.where(
         res['Localizations'].str.contains('Cell membrane') |
         (res['Localizations'].str.contains('Extracellular')) |
-        (res['Signals'].str.contains('Transmembrane')) |
-        (res['Signals'].str.contains('Signal peptide')), 1, 0)
+        (res['Signals'].str.contains('Transmembrane')), 1, 0)
 
+    # Merge with the dataframe to get true labels for samples
     res_merged = pd.merge(res, df_dataset, on='transcript')
     y_true = res_merged.type
     y_pred = res_merged.prediction
     test_y_true = res_merged.loc[res_merged.test == True]['type']
     test_y_pred = res_merged.loc[res_merged.test == True]['prediction']
 
+    # Evaluate the scores
     scores = evaluate_model(y_pred, y_true, model="DeepLoc 2.0")
     test_scores = evaluate_model(test_y_pred, test_y_true, model='DeepLoc 2.0 on test set')
 
@@ -107,18 +117,14 @@ def eval_DeepLoc_membrane(res_file, df_dataset):
 
 def eval_DeepTMHMM(res_file, df_dataset):
     res = parse_DeepTMHMM_result(res_file)
-    print(res)
-
     res_merged = pd.merge(df_dataset, res, on='transcript')
-    print(len(res_merged))
-    # label 1 (== drug target) if
-    # - signal peptide or transmembrane is predited
-    # - topology contains M or O (membrane or outside)
+    # Class label 1 (== antigen candidate) assigned if
+    # - signal peptide or transmembrane type  is predicted
+    # - topology contains at least one M or O (membrane or outside)
     res_merged['y_pred'] = np.where(
         res_merged.pred_type.isin(['SP', 'TM', 'SP+TM']) |
         res_merged.topology.str.contains('M') |
         res_merged.topology.str.contains('O'), 1, 0)
-
     y_true = res_merged.type
     y_pred = res_merged.y_pred
     test_y_true = res_merged.loc[res_merged.test == True]['type']
@@ -142,6 +148,7 @@ def eval_TMHMM(res_file, df_dataset):
             res.loc[len(res.index)] = [transcript, pred_hel, topology]
             line = fh.readline()
     res.pred_hel = res.pred_hel.astype('int')
+    # Class label 1 assigned if predicted number of helices is > 0
     res['pred_type'] = np.where((res.pred_hel > 0), 1, 0)
 
     res = pd.merge(res, df_dataset, on='transcript')
@@ -171,8 +178,10 @@ def eval_Phobius(res_file, df_dataset):
             res.loc[len(res.index)] = [transcript, tm, sp, pred_topology]
             line = fh.readline()
     res.tm = res.tm.astype('int')
+    # Class label 1 is assigned if
+    #  -  > 0 TM domains is predicted
+    #  -  at least one residue is predicted as outside 
     res['pred_type'] = np.where((res.pred_topology.str.contains('o')) | (res.tm > 0), 1, 0)
-    print(df_dataset)
     res_merged = pd.merge(res, df_dataset, on='transcript')
     scores = evaluate_model(res_merged.type, res_merged.pred_type, model='Phobius')
     test_scores = evaluate_model(
@@ -202,8 +211,12 @@ def eval_DeepLoc10_membrane(res_file, df_dataset):
 def eval_DeepLoc10(res_file, df_dataset):
     res = pd.read_csv(res_file)
     res = res.rename(columns={'Entry ID': 'transcript'})
+    # Class label 1 assigned if
+    #    - Localization (ten-class) Extracellular or membrane is predicted
+    #    - Or binary labels is Membrane
     res['prediction'] = np.where(
         res['Localization'].str.contains('Extracellular') |
+        res['Localization'].str.contains('Cell membrane') |
         (res['Type'].str.contains('Membrane')), 1, 0)
     res_merged = pd.merge(res, df_dataset, on='transcript')
     y_true = res_merged.type
@@ -243,6 +256,6 @@ if __name__ == '__main__':
     parser.add_argument('--model', help='Model to evaluate')
     parser.add_argument('--res_file', help='Result file to be read')
     parser.add_argument('--out_file', help='File to write scores to')
-    parser.add_argument('--dataset', help='Dataset: pfal or deeploc')
+    parser.add_argument('--dataset', help='Dataset: plasmoFAB or deeploc')
     args = parser.parse_args()
     main(model=args.model, res_file=args.res_file, dataset=args.dataset, out_file=args.out_file)
