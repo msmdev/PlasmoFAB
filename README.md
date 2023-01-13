@@ -29,10 +29,7 @@ The file paths are hardcoded in a dictionary but will work when this repo is clo
 
 ## Train models
 
-Parts of the work here have been computed on a compute cluster, for example the embedding generation (GPU-bound). `cluster_files/` contains scripts to create embeddings and train specific models.
-
-Pre-computed embeddings (ESM-1b and ProtT5) as well as oligo kernel matrices are available under `data/plasmo_fab`, and training of the logistic regression or SVM can be done locally. 
-`scripts/train.py` is the entry-point to train all models `python train.py -h` prints all available arguments. Model, embedding, regularization parameter, paths, grid search option  and others can be specified.
+Pre-computed embeddings (ESM-1b and ProtT5) as well as oligo kernel matrices are available under `data/plasmo_fab`, and training of the logistic regression or SVM can be done locally. `scripts/train.py` is the entry-point to train all models `python train.py -h` prints all available arguments. Model, embedding, regularization parameter, paths, grid search option  and others can be specified.
  
 - `scripts/` provides scripts for most tasks that can be run from command line:
 
