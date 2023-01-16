@@ -137,9 +137,7 @@ def _create_dataframe(paths):
     intras = pd.read_csv(paths['intracellular'], sep=';')
     intras['transcript'] = intras.ID.astype('string')
     intras.drop_duplicates(subset='transcript', keep='first', inplace=True)
-    intras.drop(columns=[
-        'ID', 'Name', 'evidence', 'reference_2', 'cluster name', 'Unnamed: 5',],
-        inplace=True)
+    intras = intras[['transcript', 'ref']]
 
     intras.transcript = intras.transcript.str.slice_replace(start=13, repl='.1')
     plasmodb_df['intracellular'] = np.where(plasmodb_df.transcript.isin(
@@ -151,8 +149,8 @@ def _create_dataframe(paths):
 
     # merge with plasmod and combine refrerences
     plasmodb_df = pd.merge(plasmodb_df, intras, on='transcript', how='left')
-    plasmodb_df.reference = plasmodb_df.reference.fillna(plasmodb_df['Reference'].astype('string'))
-    plasmodb_df.drop(columns=['Reference'])
+    plasmodb_df['reference'] = plasmodb_df['reference'].fillna(plasmodb_df['ref'].astype('string'))
+    plasmodb_df.drop(columns=['ref'])
 
     # remove duplicates
     plasmodb_df.drop_duplicates(subset='transcript', keep='first', inplace=True)
@@ -378,10 +376,8 @@ def _labeling(pos: pd.DataFrame, neg: pd.DataFrame, clusters: pd.DataFrame):
 
 def read_mmseqs2(file: str) -> pd.DataFrame:
     """Creates cluster DataFrame from file
-
     Args:
         fasta (str): fasta
-
     Returns:
         pd.DataFrame: clusters
     """
@@ -415,18 +411,18 @@ def main(args):
     #         'intracellular': args.intracellulars,
     #         'clusters': args.mmseqs_clusters}
 
-    paths = {'ht_evidence': '../data/plasmo_fab/plasmoDB_files/plasmodb56_ht_evidence_120922.csv', 
-            'pexel_evidence': '../data/plasmo_fab/plasmoDB_files/plasmodb56_pexel_evidence_120922.csv', 
-            'sporozoites': '../data/plasmo_fab/plasmoDB_files/swearingen_sporozoites_220122.csv', 
-            'sequences': '../data/plasmo_fab/plasmoDB_files/plasmodb56_3d7_proteins_250322.fasta', 
-            'epitopes': '../data/plasmo_fab/plasmoDB_files/plasmodb56_epitopes_280322.csv',
-            'rif_stev_evidence': '../data/plasmo_fab/plasmoDB_files/plasmodb56_rifin_stevor_evidence_280322.csv', 
-            'epitopes_evidence': '../data/plasmo_fab/plasmoDB_files/plasmodb56_epitopes_evidence_280322.csv',
-            'intracellular': '../data/plasmo_fab/intracellular_proteins_manuscript.csv',
-            'uniprot_pos': '../data/plasmo_fab/uniprot/UniProt_pos.csv',
-            'uniprot_neg': '../data/plasmo_fab/uniprot/UniProt_neg.csv',
-            'uniprot_no_location': '../data/plasmo_fab/uniprot/UniProt_no_location.csv',
-            'clusters': '../data/plasmo_fab/mmseqs2_plasmofab_clusters.out'}    
+    paths = {'ht_evidence': 'data/plasmo_fab/data_sources/plasmoDB_files/plasmodb56_ht_evidence_120922.csv', 
+            'pexel_evidence': 'data/plasmo_fab/data_sources/plasmoDB_files/plasmodb56_pexel_evidence_120922.csv', 
+            'sporozoites': 'data/plasmo_fab/data_sources/plasmoDB_files/swearingen_sporozoites_220122.csv', 
+            'sequences': 'data/plasmo_fab/data_sources/plasmoDB_files/plasmodb56_3d7_proteins_250322.fasta', 
+            'epitopes': 'data/plasmo_fab/data_sources/plasmoDB_files/plasmodb56_epitopes_280322.csv',
+            'rif_stev_evidence': 'data/plasmo_fab/data_sources/plasmoDB_files/plasmodb56_rifin_stevor_evidence_280322.csv', 
+            'epitopes_evidence': 'data/plasmo_fab/data_sources/plasmoDB_files/plasmodb56_epitopes_evidence_280322.csv',
+            'intracellular': 'data/plasmo_fab/data_sources/intracellular_proteins_expert_list.csv',
+            'uniprot_pos': 'data/plasmo_fab/data_sources/uniprot/UniProt_pos.csv',
+            'uniprot_neg': 'data/plasmo_fab/data_sources/uniprot/UniProt_neg.csv',
+            'uniprot_no_location': 'data/plasmo_fab/data_sources/uniprot/UniProt_no_location.csv',
+            'clusters': 'data/plasmo_fab/data_sources/mmseqs2_plasmofab_clusters.out'}    
     
     df = _create_dataframe(paths)
 
@@ -444,13 +440,13 @@ def main(args):
     
     # If minimal cols, save only transcript, test label and seq in CSV
     if args.all_columns == True:
-        pos.to_csv(f"../data/plasmo_fab/{args.out}_pos.csv", index=False)
-        neg.to_csv(f"../data/plasmo_fab/{args.out}_neg.csv", index=False)
+        pos.to_csv(f"{args.out}_pos.csv", index=False)
+        neg.to_csv(f"{args.out}_neg.csv", index=False)
     else:
         pos_min = pos[['transcript', 'seq', 'test']]
         neg_min = neg[['transcript', 'seq', 'test']]
-        pos_min.to_csv(f"../data/plasmo_fab/{args.out}_pos.csv", index=False)
-        neg_min.to_csv(f"../data/plasmo_fab/{args.out}_neg.csv", index=False)
+        pos_min.to_csv(f"{args.out}_pos.csv", index=False)
+        neg_min.to_csv(f"{args.out}_neg.csv", index=False)
     
     if args.save_plasmodb:
         data_table.to_csv(f"{args.out}_full_table.csv")
