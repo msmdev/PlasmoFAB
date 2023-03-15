@@ -41,7 +41,7 @@ The prediction services which are evaluated in this work all take a FASTA file a
 
 ## Leaderboard
 
-Here you can find a provisionally leaderboard for PlasmoFAB. If you have performance results of your own model that you wish to be included in this leaderboard, please contact us (see www.pfeiferlab.org for contact details). We are currently looking into the possibility to provide a more standarized leaderboard, so stay tuned.
+Here you can find a provisional leaderboard for PlasmoFAB. If you have performance results of your own model that you wish to be included in this leaderboard, please contact us (see www.pfeiferlab.org for contact details). We are currently looking into the possibility to provide a more standarized leaderboard, so stay tuned.
 
 |Rank         |User         |Model       |MCC         |
 |-------------|-------------|------------|------------|
