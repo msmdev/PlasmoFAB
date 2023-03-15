@@ -38,3 +38,20 @@ Pre-computed embeddings (ESM-1b and ProtT5) as well as oligo kernel matrices are
 The prediction services which are evaluated in this work all take a FASTA file as input and produce prediction files in various formats (csv, 3line, .txt).
 
 `scripts/evaluate_results.py` provides functions to parse prediction files for each model and translates their predictions to the binary task of antigen candidate prediction as performed here. Supported models currently are DeepTMHMM, DeepLoc 2.0, DeepLoc 1.0, TMHMM and Phobius.
+
+## Leaderboard
+
+Here you can find a provisionally leaderboard for PlasmoFAB. If you have performance results of your own model that you wish to be included in this leaderboard, please contact us (see www.pfeiferlab.org for contact details). We are currently looking into the possibility to provide a more standarized leaderboard, so stay tuned.
+
+|Rank         |User         |Model       |MCC         |
+|-------------|-------------|------------|------------|
+|1            |PfeiferLab   |ProtT5 + LR |0.8500      |
+|2            |PfeiferLab   |ProtT5 + SVM|0.8333      |
+|2            |PfeiferLab   |ESM1b + LR  |0.8333      |
+|2            |PfeiferLab   |ESM1b + SVM |0.8333      |
+|5            |PfeiferLab   |DeepTMHMM   |0.7167      |
+|6            |PfeiferLab   |DeepLoc 2.0 |0.7009      |
+|7            |PfeiferLab   |Oligo-SVM   |0.6500      |
+|7            |PfeiferLab   |TMHMM       |0.6500      |
+|9            |PfeiferLab   |DeepLoc 1.0 |0.6357      |
+|10           |PfeiferLab   |Phobius     |0.6333      |
