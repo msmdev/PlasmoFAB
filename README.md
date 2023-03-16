@@ -43,7 +43,7 @@ The prediction services which are evaluated in this work all take a FASTA file a
 
 If you want to utilize PlasmoFAB, please download the offizial version from Zenodo. Afterwards you can easily load the dataset using your favorite scripting language. For example, loading PlasmoFAB using Python could look like this
 
-```
+```python
 plasmoFAB_seq = []     # stores the sequences
 plasmoFAB_label = []   # stores the labels
 plasmoFAB_test = []    # only necessary if you need the test set
@@ -61,16 +61,16 @@ with open('PlasmoFAB_neg.csv', 'r') as neg_in:
         plasmoFAB_seq.append(line.split(',')[1])
         plasmoFAB_label.append(0)
         plasmoFAB_test.append(line.split(',')[2].strip())
-```python
+```
 
 To break the sorting, you can simply shuffle the resulting lists
 
-```
+```python
 import random
 plasmoFAB = list(zip(plasmoFAB_seq, plasmoFAB_label, plasmoFAB_test))
 random.shuffle(plasmoFAB)
 plasmoFAB_seq, plasmoFAB_label, plasmoFAB_test = zip(*plasmoFAB)
-```python
+```
 
 Afterwards you can change the sequences into the format needed by your classifier. For example, you could cast the list to numpy arrays and use the *pfmptool.utils.one_hot_encoding* function provided by us to convert the sequences into one-hot-encoded sequences. To get information on how to feed data to your classifier, please consult the API of your framework (e.g. sklearn) or look for tutorials.
 
