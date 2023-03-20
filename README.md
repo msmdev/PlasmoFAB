@@ -80,13 +80,13 @@ Here you can find a provisional leaderboard for PlasmoFAB. If you have predictio
 
 |Rank         |User         |Model       |MCC         |
 |-------------|-------------|------------|------------|
-|1            |PfeiferLab   |ProtT5 + LR |0.8500      |
-|2            |PfeiferLab   |ProtT5 + SVM|0.8333      |
-|2            |PfeiferLab   |ESM1b + LR  |0.8333      |
-|2            |PfeiferLab   |ESM1b + SVM |0.8333      |
-|5            |PfeiferLab   |DeepTMHMM   |0.7167      |
-|6            |PfeiferLab   |DeepLoc 2.0 |0.7009      |
-|7            |PfeiferLab   |Oligo-SVM   |0.6500      |
-|7            |PfeiferLab   |TMHMM       |0.6500      |
-|9            |PfeiferLab   |DeepLoc 1.0 |0.6357      |
-|10           |PfeiferLab   |Phobius     |0.6333      |
+|1            |PfeiferLab   |ProtT5 + LR |0.7338      |
+|2            |PfeiferLab   |ESM1b + LR  |0.7071      |
+|2            |PfeiferLab   |ESM1b + SVM |0.7071      |
+|4            |PfeiferLab   |ProtT5 + SVM|0.6917      |
+|5            |PfeiferLab   |DeepTMHMM   |0.4395      |
+|6            |PfeiferLab   |DeepLoc 2.0 |0.4009      |
+|7            |PfeiferLab   |Oligo-SVM   |0.4145      |
+|8            |PfeiferLab   |TMHMM       |0.3015      |
+|9            |PfeiferLab   |Phobius     |0.2722      |
+|10           |PfeiferLab   |DeepLoc 1.0 |0.2691      |
